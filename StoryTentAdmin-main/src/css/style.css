@@ -1,0 +1,383 @@
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /*box-shadow: inset 0 0 5px #e0eeff;*/
+      background: rgb(240, 240, 240);
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#bcbbbb; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #bcbbbb; 
+  }
+
+/* buttons -----------------------------------*/
+.btn-danger {
+    margin-top: 0px;
+    background-color: #fb3e44;
+    border-color: #fb3e44;
+}
+.serviceId {
+    color: blue;
+}
+.service-id {
+    background: black;
+    color: white;
+}
+/* start style for SideBar Page */
+.left-side-menu {
+    margin-left: -30px;
+    margin-top: 0px!important;
+    border-radius: 0;
+    margin: 0px;
+    padding: 0px;
+    background-color: none;
+    position: sticky;  
+    background: #fff;
+    float: left; 
+    box-shadow: 2px 0px 30px 5px rgb(0 0 0 / 7%);
+    height: 100vh;
+}
+#main-sidebar {
+  font-size: 14px;
+  /* font-family: 'Tinos', serif; */
+  float: left;
+  /*margin-top: 15px;
+  margin-left: -20px; */
+  width: 100%;
+  color: #333 !important;
+}
+.metismenu.side-nav{
+    overflow: auto;
+    height: 100%;
+}
+.menu-arrow {
+    margin-top: 2px;
+    margin-left: 35px;
+}
+.leftbar-user-name {
+    margin-right: 12px;
+}
+/* end sidebar page*/
+/*....................................................................................................................*/
+
+/* start style for Login Page */
+
+.forgotForm {
+    text-align: center;
+    margin-top: 100px;
+}
+.email {
+    width: 230px;
+    height: 35px;
+    outline: none;
+    margin-top:30px;
+}
+.appName {
+    color: white;
+    padding: 0px;
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: -webkit-pictograph;
+}
+#admin {
+    font-size: 14px;
+    color: black;
+
+}
+
+/* End style of Login Page */
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/* Start style for Dashboard Page */
+
+ #modules {
+  color: #b30101;
+  font-weight: 600;
+ }
+ .page-title-heading {
+  color: #333;
+  margin-bottom: 10px;
+  display: inline-block;
+ }
+
+/* End style of Dashboard Page */
+
+/* Topbar style */
+.account-user-name {
+    display: block;
+    font-weight: 600;
+    position: relative;
+    top: 12px;
+    right: 30px;
+}
+
+/* End */
+
+.custom-change-status {
+    width: 100px;
+}
+
+.edit-user, .view-user, .delete-faqs, .edit-faqs , .view-faqs, .celebrity-btn, .redirect-donation, .edit-sound, .edit-data {
+   margin-left: 5px;
+}
+
+
+#selectValue {
+    margin-bottom: 10px;
+}
+
+.oldImage {
+    margin-left: 20px;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .pagination a:hover {
+    background-color: #17921e;
+    color: white;
+    cursor: pointer!important;
+  }
+
+
+  #selectClass {
+      background-color: #35b8e0;
+      color: white;
+  }
+
+  .content-pills {
+    margin-top: 20px;
+    padding-right: 15px;
+  }
+
+  .content-pills:hover {
+      color: black;
+  }
+
+  #dynamic-msg {
+    margin-right: 110px;
+  }
+  
+  .image-upload>input {
+    display: none;
+  }
+
+  .left-side-menu-detached .image-upload img {
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     cursor: pointer;
+  }
+  h1 {
+    color: green;
+  }
+
+  .action-btn {
+      width: 220px;
+  }
+
+  .content-page {
+      padding: 0px 12px 65px;
+  }
+
+  /* CSS of user details page */
+
+.user-details-page .user-media .media-left, .user-media .media-body {
+    display: table-cell;
+    vertical-align: top;
+}
+.user-details-page .user-media .user-pic {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.user-details-page .user-media .user-pic img {
+    width: 100%;
+    height: 100%;
+}
+.user-details-page .user-media .media-body {
+    padding-left: 15px;
+}
+.user-details-page .user-media .media-body h5 {
+    margin: 0;
+}
+.user-details-page .user-media {
+    border-bottom: 1px solid #eaeaea;
+}
+.user-details-page .clr {
+    clear: both;
+}
+.user-details-page .box {
+    position: relative;
+    border-top: 0;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #fff;
+    border-radius: 0;
+    padding: 0px;
+	color: #fff;
+    -webkit-transition: .5s;
+    transition: .5s;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* border: 1px solid #dce3e6; */
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 5px 20px rgb(0 0 0 / 5%);
+    box-shadow: 0px 5px 10px rgb(0 0 0 / 2%);
+	    margin-top: 15px;
+}
+.user-details-page .box-body {
+    padding: 1.25rem;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+.user-details-page .flexbox {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.user-details-page .box .box-body .flexbox {
+    display: block;
+}
+.user-details-page .box .box-body .flexbox h5 {
+    text-align: center;
+}
+.user-details-page .font-size-60 {
+    font-size: 3.286rem !important;
+    line-height: 1.2;
+}
+.user-details-page .text-white {
+    color: #fff !important;
+}
+.user-details-page .dashbg1 {
+    background: #f96690;
+}
+.user-details-page a:active, a:focus, a:hover {
+    outline: 0;
+    text-decoration: none;
+    /* color: #ef4654; */
+}
+.user-details-page .dashbg2 {
+    background: #a735fe;
+}
+.user-details-page .dashbg3 {
+    background: #f28660;
+}
+.user-details-page .dashbg4 {
+    background: #a09bf9;
+}
+.user-details-page .dashbg10 {
+    background: #805dff;
+}
+.user-details-page .dashbg8 {
+    background: #45cd8f;
+}
+.user-details-page .dashbg5 {
+    background: #d832c4;
+}
+.user-details-page .info a {
+    color: #b3b0b0;
+}
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#gen-message {
+    text-align: center;
+}
+
+.location-search-input {
+    width: 100%;
+}
+.oldImage {
+    width: 50px;
+    height: 50px;
+}
+.page-title-box .page-title-right{ margin-top: 0; }
+.ml5{ margin-left: 5px; }
+
+.btn{ padding: 0.25rem 0.3rem; }
+
+.width20 {
+    width: 15%;
+}
+
+.default-previous, .default-next {
+    pointer-events: none;
+    cursor: default;
+}
+
+.export-user-btn, .add-btn {
+    margin-top: 4px;
+}
+
+.content-loader {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #ffffffbf;
+    z-index: 99;
+	display: inline-flex;
+    text-align: left;
+    justify-content: left;
+    align-items: start;
+}
+
+.content-loader img {
+  width: 35px;
+}
+.namecol{ word-break: break-word;}
+.updatebtns{
+    /* background: transparent;
+    border: none; */
+    padding: 1px 1px;
+    font-size: 13px;
+}
+.tblbtns{
+    padding: 2px 5px;
+    font-size: 12px;
+}
+.checkboxcreate{ margin-left: 20px; }
+
+/* End */
+
+
+
+
+
+
